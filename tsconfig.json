@@ -21,8 +21,11 @@
     ],
     "baseUrl": ".",
     "paths": {
+      "@/*": ["/*"],
       "@pages/*": ["pages/*"],
       "@components/*": ["src/components/*"],
+      "@services/*": ["src/services/*"],
+      "@controllers/*": ["src/controllers/*"],
       "@api/*": ["src/api/*"],
       "@types/*": ["src/types/*"],
       "@lib/*": ["src/lib/*"],
