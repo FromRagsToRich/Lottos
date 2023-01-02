@@ -1,0 +1,5 @@
+const MAX_NUMBER = 45;
+
+const MAX_LENGTH_PER_LOTTO = 6;
+
+export { MAX_NUMBER, MAX_LENGTH_PER_LOTTO };

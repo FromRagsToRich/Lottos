@@ -9,3 +9,15 @@
 - docs: README 수정
 - bugfix: 버그수정
 - test: 테스트 코드
+
+## Todo
+
+- [ ] Random Number
+- [ ] 화면 디자인 효과 고민
+
+## Challenge
+
+- Test Code
+- 레이어 나눠서 구성해보기
+  - service
+  - controller
