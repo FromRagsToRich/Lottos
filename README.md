@@ -21,3 +21,4 @@
 - 레이어 나눠서 구성해보기
   - service
   - controller
+- Mobile First
