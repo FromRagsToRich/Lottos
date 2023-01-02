@@ -19,7 +19,7 @@ const lottoServices = () => {
   };
 
   const createLottoNumbers = (count: number) => {
-    Array.from({ length: count }).map((_) => {
+    return Array.from({ length: count }).map((_) => {
       return createLottoNumber();
     });
   };
