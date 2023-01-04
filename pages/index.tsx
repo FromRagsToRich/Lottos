@@ -1,4 +1,5 @@
 import { purchaseState } from '@atoms/index';
+import Ball from '@components/Ball';
 import { Button } from '@components/Common';
 import { ChangeEvent } from 'react';
 import { useRecoilState } from 'recoil';
