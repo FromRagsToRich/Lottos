@@ -1,3 +1,3 @@
-import useOutsideClick from './useOutsideClick';
+import useVisible from './useVisible';
 
-export { useOutsideClick };
+export { useVisible };

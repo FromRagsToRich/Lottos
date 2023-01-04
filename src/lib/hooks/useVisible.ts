@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, MouseEvent, useCallback } from 'react';
 
-function useOutsideClick<T extends HTMLElement>(initialIsVisible: boolean) {
+function useVisible<T extends HTMLElement>(initialIsVisible: boolean) {
   const [visible, setVisible] = useState(initialIsVisible);
   const ref = useRef<T | null>(null);
 
@@ -30,4 +30,4 @@ function useOutsideClick<T extends HTMLElement>(initialIsVisible: boolean) {
   return { ref, visible, setVisible };
 }
 
-export default useOutsideClick;
+export default useVisible;

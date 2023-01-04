@@ -1,5 +1,5 @@
 import { cls } from '@lib/bindClassName';
-import { useOutsideClick } from '@lib/hooks';
+import { useVisible } from '@lib/hooks';
 import React, { useState } from 'react';
 
 type DropdownProps = {
@@ -9,7 +9,7 @@ type DropdownProps = {
 // https://stackoverflow.com/questions/32553158/detect-click-outside-react-component
 
 function Dropdown() {
-  const { ref, visible, setVisible } = useOutsideClick<HTMLDivElement>(false);
+  const { ref, visible, setVisible } = useVisible<HTMLDivElement>(false);
 
   const handleOpen = () => {
     setVisible(true);
