@@ -12,7 +12,7 @@ function Dropdown() {
   const { ref, visible, setVisible } = useVisible<HTMLDivElement>(false);
 
   const handleOpen = () => {
-    setVisible(true);
+    setVisible((prev) => !prev);
   };
 
   const handleClose = () => {
