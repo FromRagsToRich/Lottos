@@ -29,6 +29,7 @@
       "@api/*": ["src/api/*"],
       "@types/*": ["src/types/*"],
       "@lib/*": ["src/lib/*"],
+      "@atoms/*": ["src/atoms/*"],
       "@constant/*": ["src/constant/*"],
       "@styles/*": ["styles/*"]
     }
