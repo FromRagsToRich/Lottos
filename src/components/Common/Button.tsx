@@ -9,7 +9,7 @@ interface Props {
 function Button({ onClick, value, text, loading, ...props }: Props) {
   return (
     <button
-      className="w-full bg-purple-400 py-3 px-4 rounded-lg text-white bold"
+      className="w-full bg-purple-400 py-4 px-4 rounded-lg text-white bold"
       onClick={onClick}
       value={value}
       {...props}
