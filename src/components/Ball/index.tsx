@@ -3,7 +3,7 @@ import React from 'react';
 
 const createBallBackgroundColorByNumber = (lottoNumber: number = 1) => {
   if (lottoNumber < 10)
-    return `from-amber-400 via-amber-500 to-amber-600  text-gray-100`;
+    return `from-yellow-400 via-yellow-500 to-yellow-600  text-gray-100`;
   if (lottoNumber < 20)
     return `from-blue-400 via-blue-500 to-blue-600  text-gray-100`;
   if (lottoNumber < 30)
@@ -22,12 +22,12 @@ function Ball({ lottoNumber }: { lottoNumber: number }) {
   return (
     <div
       className={cls(
-        'w-20 h-20 rounded-full flex justify-center items-center font-bold',
+        'w-16 h-16 rounded-full flex justify-center items-center font-bold text-2xl',
         'bg-gradient-to-r',
         bgColor,
       )}
     >
-      Ball
+      {lottoNumber}
     </div>
   );
 }
