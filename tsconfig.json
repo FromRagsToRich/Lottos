@@ -31,6 +31,7 @@
       "@lib/*": ["src/lib/*"],
       "@atoms/*": ["src/atoms/*"],
       "@constant/*": ["src/constant/*"],
+      "@assets/*": ["src/assets/*"],
       "@styles/*": ["styles/*"]
     }
   },
