@@ -1,5 +1,4 @@
 import { cls } from '@lib/bindClassName';
-import { PRIMARY_BG_COLOR } from 'src/constants';
 
 interface Props {
   onClick: () => void;
@@ -13,7 +12,7 @@ interface Props {
 function Button({ onClick, value, text, loading, disabled, ...props }: Props) {
   const styleByDisabled = disabled
     ? `bg-gray-200 disabled text-black`
-    : `${PRIMARY_BG_COLOR} text-white`;
+    : `bg-purple-400 text-white`;
   return (
     <button
       className={cls(
