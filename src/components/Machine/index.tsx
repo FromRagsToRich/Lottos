@@ -1,5 +1,5 @@
 const Machine = () => {
-  <div>Machine</div>;
+  return <div className="py-4">Machine</div>;
 };
 
 export default Machine;

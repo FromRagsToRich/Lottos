@@ -15,7 +15,7 @@ const lottosState = atom<Lottos>({
 
 const purchaseState = atom<number>({
   key: LOTTO_KEYS.PURCHASE_COUNT,
-  default: 1,
+  default: 0,
 });
 
 export { lottosState, purchaseState };

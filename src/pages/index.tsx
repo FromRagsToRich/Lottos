@@ -1,6 +1,6 @@
 import { purchaseState } from '@atoms/index';
-import { Button } from '@components/Common';
-import Dropdown from '@components/Common/Dropdown';
+import Machine from '@components/Machine';
+import Select from '@components/Select';
 import { ChangeEvent } from 'react';
 import { useRecoilState } from 'recoil';
 
@@ -12,10 +12,8 @@ const HomePage = () => {
 
   return (
     <div>
-      <input onChange={onChange} value={count} />
-      <Button onClick={() => console.log('hello')} text="button1" />
-      <div>{count}</div>
-      <Dropdown />
+      <Select />
+      <Machine />
     </div>
   );
 };
