@@ -10,11 +10,6 @@
 - bugfix: 버그수정
 - test: 테스트 코드
 
-## Todo
-
-- [ ] Random Number
-- [ ] 화면 디자인 효과 고민
-
 ## Challenge
 
 - Test Code
