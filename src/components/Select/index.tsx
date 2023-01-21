@@ -19,7 +19,7 @@ function Select() {
   };
 
   return (
-    <div className="flex gap-2 h-16 py-2">
+    <div className="flex gap-2 h-14 py-2">
       <Dropdown
         placeholder="개수를 선택해주세요"
         items={10}

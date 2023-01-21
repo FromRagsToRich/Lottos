@@ -16,7 +16,7 @@ function Button({ onClick, value, text, loading, disabled, ...props }: Props) {
   return (
     <button
       className={cls(
-        'w-full h-full py-4 px-4 rounded-lg bold flex justify-center items-center',
+        'w-full h-full p-4 rounded-lg bold flex justify-center items-center',
         styleByDisabled,
       )}
       onClick={onClick}

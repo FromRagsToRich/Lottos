@@ -37,7 +37,7 @@ function Dropdown({
     <div className={`w-full relative`} onBlur={handleClose}>
       <div
         ref={ref}
-        className="rounded-lg h-full p-4 border-2 border-gray-100 bg-gray-100 text-gray-400 font-bold cursor-pointer flex items-center"
+        className="rounded-lg h-full p-4 border-2 border-gray-100 bg-gray-100 text-gray-400 font-bold text-sm cursor-pointer flex items-center"
         onClick={handleOpen}
       >
         {selectedValue ? selectedValue : placeholder}
